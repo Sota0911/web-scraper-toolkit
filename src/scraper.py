@@ -32,7 +32,7 @@ def fetch(url: str, session: requests.Session, delay: float = DEFAULT_DELAY) -> 
 def build_session() -> requests.Session:
     session = requests.Session()
     session.headers.update({
-        "User-Agent": "Mozilla/5.0 (educational web scraper — books.toscrape.com)"
+        "User-Agent": "Mozilla/5.0 (educational web scraper - books.toscrape.com)"
     })
     return session
 
